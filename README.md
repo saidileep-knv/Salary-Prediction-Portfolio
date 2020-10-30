@@ -40,6 +40,6 @@ milesFromMetropolis | Distance of the job location in miles from the nearest met
 salary              | In x1000 dollars of the respective jobId
 
 # Summary
-Applying second order polynomial transformation to the features used gave the most accurate predictions with the least error when using a linear regression model. The result was a mean squared error of 353 with a 76.4% accuracy rate.
+Applying second order polynomial transformation to the features used gave the most accurate predictions with the least error when using a linear regression model. The result was a mean squared error of 353 and r-squared of 0.764.
 
 This model can provide the most accurate results when supplied with information on yearsExperience, milesFromMetropolis, jobType, degree and major.
